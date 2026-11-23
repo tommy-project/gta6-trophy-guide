@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA VI Trophy Guide — All 55 PS5 Trophies</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; Offline guide</p>
+  <h1>GTA VI Trophy Guide</h1>
+  <p class="lede">All 55 trophies with a step-by-step guide for each, plus a tracker that saves on this device. One playthrough is enough &mdash; around 200 hours for the Platinum &mdash; and only one trophy is reported as possibly missable. This guide works fully offline.</p>
+  <div class="progress-wrap" aria-label="Progress">
+    <div class="progress-line"><strong id="progressText">0 of 55 earned</strong><span id="progressPct">0%</span></div>
+    <div class="bar"><div class="bar-fill" id="progressBar" style="width:0%"></div></div>
+    <p class="grade-counts" id="gradeCounts"></p>
+  </div>
+  <p class="demo-note" id="demoNote" hidden>Demo progress &mdash; 12 trophies ticked as a preview. Your saved progress is untouched.</p>
+</header>
+
+<nav class="tabs" aria-label="Views">
+  <button type="button" id="tabTrophies" class="tab active" aria-pressed="true">Trophies</button>
+  <button type="button" id="tabRoadmap" class="tab" aria-pressed="false">Roadmap to Platinum</button>
+</nav>
+
+<section id="viewTrophies" aria-label="Trophy list">
+  <div class="controls">
+    <label class="search">Search <input id="search" type="search" placeholder="Trophy, mission or keyword&hellip;" autocomplete="off"></label>
+    <label>Kind
+      <select id="kind">
+        <option value="all">All kinds</option>
+        <option value="story">Story</option>
+        <option value="side">Side quests</option>
+        <option value="collectible">Collectibles</option>
+        <option value="activity">Activities</option>
+        <option value="exploration">Exploration</option>
+        <option value="misc">One-offs</option>
+        <option value="completion">Completion</option>
+      </select>
+    </label>
+    <label>Grade
+      <select id="grade">
+        <option value="all">All grades</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+    </label>
+    <label>Show
+      <select id="earnedFilter">
+        <option value="all">All trophies</option>
+        <option value="earned">Earned only</option>
+        <option value="unearned">Not earned yet</option>
+        <option value="missable">Possibly missable</option>
+        <option value="hidden">Hidden only</option>
+      </select>
+    </label>
+    <label class="spoiler"><input id="spoiler" type="checkbox" checked> Hide story spoilers</label>
+    <button id="export" type="button">Export progress</button>
+    <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+    <button id="reset" type="button">Reset</button>
+  </div>
+  <p class="hint">Tick a trophy when it pops &mdash; it stays ticked on this device. Story trophies stay hidden while spoilers are on, until you earn them. Every guide names its source.</p>
+  <div id="cards" class="cards"></div>
+  <p class="empty" id="empty" hidden>No trophies match these filters. Clear the search or pick another kind.</p>
+</section>
+
+<section id="viewRoadmap" aria-label="Roadmap to the Platinum" hidden>
+  <h2>Roadmap to the Platinum</h2>
+  <p class="lede">One playthrough, no online trophies, no difficulty setting, no New Game Plus and no mission replay. The story takes about 50&ndash;60 hours; the full Platinum takes around 200, most of it on the 100% checklist after the credits.</p>
+
+  <div class="warn">
+    <h3>Read this first &mdash; the only missable warning</h3>
+    <p><strong>Positive Mental Attitude is the only trophy reported as possibly missable.</strong> In Chapter 1, the morning after the mission Down to Earth, follow Lucia from the kitchen to the balcony and accept her meditation. It is gone after Chapter 1, and it is not confirmed yet whether the trophy needs it &mdash; do it anyway. Also save before the Chapter 3 race against Yago (Race Against Yago): it is time-sensitive and its strand counts toward Strangers &amp; Freaks.</p>
+    <p><strong>Saves:</strong> the game has 15 manual save slots plus one autosave. Keep one save at the start of every chapter and one untouched save from just before the final mission. <strong>Cheats:</strong> using cheats switches off trophies and saving, so keep them off on your trophy run.</p>
+  </div>
+
+  <ol class="steps">
+    <li><strong>Before you start.</strong> Turn on every progress and collectible notification in the settings, and Criminal Profile notifications in Settings, UI. You will want the counters visible from the first hour.</li>
+    <li><strong>Chapter 1.</strong> Play the story. Do Lucia&rsquo;s balcony meditation (see the warning above). Meet Cal in Feng Shui and Kenton in Key Lento &mdash; both open long quest lines.</li>
+    <li><strong>Chapter 2.</strong> Switching between Jason and Lucia opens after Coffee Break, and most of the free-roam list opens with it. Bring your partner everywhere: meditating together counts twice. Start Billy at the Thrillbilly Mudclub, Moses for the Scooter Bros app, and the garages after Daily Driver. Scan vehicles and WAiNK spots as you travel.</li>
+    <li><strong>Chapter 3.</strong> Andy&rsquo;s quests (Lucia), Tyrone&rsquo;s labs (Jason), Randy&rsquo;s Wish List after the Key Cloner mission, and Yasmani&rsquo;s Jewelry Jobs for the Snap Gun. Do Race Against Yago the moment it appears.</li>
+    <li><strong>Chapter 4.</strong> Bank vaults open through the optional mission That&rsquo;s Where The Money Is&hellip;. Rob vaults with your partner &mdash; the haul is too heavy alone, and the 4-star escape also earns Hot Together. Finish the chapter missions.</li>
+    <li><strong>Chapter 5 and the finale.</strong> Play Operation Savage Glory, then the final mission. Keep a save from just before the finale. Free roam carries on after the credits.</li>
+    <li><strong>After the credits: the 100% checklist.</strong> Open Progress, Stats, 100% Completion and work it top to bottom. The table below shows what it asks for.</li>
+    <li><strong>Clean-up.</strong> Finish the Strangers &amp; Freaks strands, the side-character finales, and the long counts: 300 stunts, 70 of 80 challenges, 200 vehicle scans, 100 animal studies, 15 of 18 meditations, 100 WAiNK scans.</li>
+    <li><strong>Platinum.</strong> When A Long Road pops, Vice Got a Price! follows immediately.</li>
+  </ol>
+
+  <h3>What A Long Road (100% completion) asks for</h3>
+  <table class="roadmap-table">
+    <thead><tr><th>Needed in full</th><th>Needed in part</th></tr></thead>
+    <tbody><tr>
+      <td>All robberies, including 8 bank vaults and 39 gang operations; underwater discoveries; every Shooting Range gold medal; all drone races; Bret&rsquo;s 15 Target Decks.</td>
+      <td>100 optional missions; 200 of 277 vehicle scans; 100 of 255 animal studies; 15 of 18 meditations; 70 of 80 challenges; 300 stunts; 100 WAiNK scans.</td>
+    </tr></tbody>
+  </table>
+  <p class="source-line">Roadmap sources: GTABase trophy guide; Output Lag trophy list. Trophy list: Exophase and PSNProfiles, reported by Push Square, 18 Nov 2026.</p>
+</section>
+
+<footer>
+  <p>Names, descriptions and grades are shown exactly as published on the official trophy list. Guides are written in our own words for this guide; each trophy names its source. Seven trophies are labelled unconfirmed: their exact unlock steps were not confirmed at launch, and this guide does not guess them.</p>
+  <p>Sources: Exophase trophy list; PSNProfiles trophy list; GTABase trophy guide; Output Lag trophy list; Press Start trophy list. No Rockstar artwork or logos are used. Progress is stored only in this browser (localStorage) and never leaves your device.</p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
